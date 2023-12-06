@@ -1,0 +1,160 @@
+body{
+    background-color: #f1f1f1;
+    color: #0f140f;
+    font-size: 16px;
+    font-weight: normal;
+
+}
+
+a{
+    color: #0f140f;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+color: blue;
+}
+
+a:visited{
+    color: grey;
+}
+.avatar{
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0,0,0,0.25);
+}
+
+.info{
+    display: flex;
+    margin-bottom: 20px;
+}
+ 
+@media  (max-width: 700px) {
+  .info{
+    text-align: center;
+    display: block;
+    
+  }
+}
+
+.info-text{
+    margin-left: 40px;
+}
+
+.info-tex h4{
+    margin-bottom: 10px;
+}
+.info p{
+    color:#312e2e;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.conteiner{
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.bg-yellow{
+    background: rgb(152, 197, 152);
+}
+
+.bg-green{
+    background: rgb(153, 153, 201);
+}
+
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+}
+
+.card h2{
+    margin-bottom: 20px;
+}
+
+.list{
+    padding: 0 20px;
+}
+
+  .list li{
+    color: rgb(192, 115, 115);
+    margin-bottom: 10px;
+  }
+
+  .table{
+    width: 100%;
+  }
+
+  .table td{
+    padding-bottom: 10px;
+  }
+
+  .table td:nth-child(2),
+  .table td:nth-child(3) {
+    color: azure;
+  }
+
+  .contact h2{
+    text-align: center;
+  }
+
+  .form-group label{
+    display: block;
+    font-size: 14px;
+    color: #a58484;
+  }
+
+  .form-group input,
+  .form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+  }
+
+  .row{
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .row > .font-group{
+    width: 50%;
+  }
+
+  .row > .font-group:last-child{
+    margin-right: 0;
+  }
+
+  .btn{
+    align-items: center;
+    margin:  auto;
+    width: 20%;
+    height: 10%;
+    border: none;
+    padding: 15px 20px;
+    background: #0f140f;
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 20px;
+    
+  }
+
+  .btn:hover{
+    opacity: 0.8;
+  }
